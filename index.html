@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8" />
+        <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <title>Weather App</title>
+        <link rel="preconnect" href="https://fonts.googleapis.com" />
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+        <link
+            href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;500;700&display=swap"
+            rel="stylesheet"
+        />
+
+        <link rel="stylesheet" href="style.css" />
+    </head>
+    <body>
+        <main>
+            <section class="weather">
+                <div id="city">Tetouan</div>
+                <div class="w-one">
+                    <div id="temp">22C</div>
+                    <img id="icon" />
+                </div>
+                <div class="w-two">
+                    <div class="humidity">
+                        <div>
+                            <p id="humidity">22</p>
+                            <span class="icon-droplet"></span>
+                        </div>
+                        <div class="wh">Humidity</div>
+                    </div>
+                    <div class="wind">
+                        <div>
+                            <p id="wind">22</p>
+                            <span class="icon-wind"></span>
+                        </div>
+                        <div class="wh">Wind</div>
+                    </div>
+                </div>
+            </section>
+            <input id="search" type="text" placeholder="City" />
+        </main>
+        <!-- <main>
+            <section id="city"></section>
+            <img src="#" id="img" alt="" />
+            <section id="temp"></section>
+            <section id="h-w">
+                <div id="humidity"></div>
+                <div id="wind"></div>
+            </section>
+            <section class="search">
+                <input type="text" placeholder="City" id="search" />
+            </section>
+        </main> -->
+        <script src="app.js"></script>
+    </body>
+</html>
