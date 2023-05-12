@@ -9,6 +9,8 @@ search.addEventListener("keypress", function (event) {
     if (event.key === "Enter" && this.value != "") {
         console.log("City name:", this.value);
         city = this.value;
+        cityName.style.color = "#212c36";
+        cityName.style.fontSize = "2.5rem";
         cityName.innerText = this.value;
         apiUrl = `https://api.openweathermap.org/data/2.5/weather?q=${city}&appid=${apiKey}`;
         getWeatherData();

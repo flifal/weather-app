@@ -79,7 +79,7 @@ main {
 #city {
     text-transform: capitalize;
     padding: 20px;
-    font-size: 3rem;
+    font-size: 2.5rem;
     font-weight: 700;
     text-align: center;
 }
@@ -89,7 +89,7 @@ main {
     display: flex;
     justify-content: center;
     gap: 30px;
-    font-size: 2.5rem;
+    font-size: 2.2rem;
 }
 .w-two {
     padding: 20px;
@@ -141,7 +141,7 @@ span {
 @media (min-width: 575px) {
     main {
         height: 450px;
-        width: 280px;
+        width: 350px;
         border-radius: 20px;
     }
     #search {
