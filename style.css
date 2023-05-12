@@ -42,7 +42,7 @@
     text-decoration: none;
 }
 :root {
-    color: rgb(33, 44, 54);
+    color: #212c36;
     font-size: 16px;
     font-family: "Roboto", sans-serif;
 }
@@ -88,6 +88,7 @@ main {
     padding: 20px;
     display: flex;
     justify-content: center;
+    align-items: center;
     gap: 30px;
     font-size: 2.2rem;
 }
